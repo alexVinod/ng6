@@ -76,3 +76,5 @@ Create a new Repo in GitHub Account
 	3. git remote add origin https://github.com/alexVinod/ng6.git
 	4. git push -u origin master
 	5. check it
+	6. ng build --prod --base-href="https://alexVinod.github.io/ng6/"
+	7. angular-cli-ghpages
