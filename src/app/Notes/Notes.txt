@@ -49,6 +49,9 @@ For Generating Service
 -------------------------
 	ng generate service data
 
+Deploying Commands
+==================================================
+
 For Deploying the App
 --------------------------
 	ng build
@@ -64,3 +67,12 @@ Applying Production mode for subFolder
 Deploying in GitHub by CLI
 ----------------------------
 	npm install -g angular-cli-ghpages
+
+Create a new Repo in GitHub Account
+-----------------------------
+	Follow the commands for push into GitHub
+	1. git add .
+	2. git commit -m "first Commit"
+	3. git remote add origin https://github.com/alexVinod/ng6.git
+	4. git push -u origin master
+	5. check it
