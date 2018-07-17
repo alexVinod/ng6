@@ -1,0 +1,66 @@
+Check for Node Version
+-----------------------
+	node -v 
+
+For Node Update 
+-----------------------
+	npm i -g npm to update
+
+Angular Installation
+-----------------------
+	npm install @angular/cli -g
+
+Check for Angular Version
+-----------------------
+	ng -v
+
+For Angular help
+-----------------------
+	ng
+
+Creating Project 
+-----------------------
+	ng new ng6 --style=scss --routing 
+
+Goto Folder
+-----------------------
+	cd ng6
+
+Run ng6
+-----------------------
+	ng serve
+
+Check in Browser 
+-----------------------
+	localhost:4200
+
+For Creating New Component 
+------------------------
+    goto ng6 project and cmd then,
+    ng generate component home
+            (or)
+    ng g c about
+
+For Animation Installation
+-------------------------
+    npm install @angular/animations@latest --save
+
+For Generating Service 
+-------------------------
+	ng generate service data
+
+For Deploying the App
+--------------------------
+	ng build
+
+Insted of Deploying we can use Production
+---------------------------
+	ng build --prod
+
+Applying Production mode for subFolder
+---------------------------
+	ng build --prod --base-href="myURL"
+
+Deploying in GitHub by CLI
+----------------------------
+	npm install -g angular-cli-ghpages
